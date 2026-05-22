@@ -1,0 +1,32 @@
+# Gradle
+.gradle/
+build/
+.gradle-cache/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Local Gradle distribution
+gradle/
+gradle-*.zip
+
+# Local JDK
+jdk-17/
+jdk*.zip
+
+# Claude
+.claude/

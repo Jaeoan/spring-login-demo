@@ -1,0 +1,7 @@
+**/build
+**/.gradle
+**/.idea
+**/*.iml
+**/.git
+**/gradle-8.10.2-bin.zip
+**/gradle
