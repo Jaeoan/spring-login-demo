@@ -4,6 +4,9 @@ spring:
     driver-class-name: ${SPRING_DATASOURCE_DRIVER:org.h2.Driver}
     username: ${SPRING_DATASOURCE_USERNAME:sa}
     password: ${SPRING_DATASOURCE_PASSWORD:password}
+  sql:
+    init:
+      mode: never
   jpa:
     hibernate:
       ddl-auto: update
@@ -11,7 +14,6 @@ spring:
       hibernate:
         format_sql: true
     show-sql: true
-    defer-datasource-initialization: true
 
   jackson:
     serialization:
